@@ -81,6 +81,7 @@ echo -e "Recently Logged On/Out:\n${GREEN}$logio${NC}"
 echo -e "Users with UID 0:\n${GREEN}$uid0${NC}"
 echo "Root Owned Files:${GREEN}"
 echo -n "$(sudo find / -uid 0 -perm -4000 -type f)${NC}"
+
 echo -e "\n---- Processes and Open Files ----"
 process=$(ps aux | head -20)
 ncf=$(ps -gef | grep nc)
