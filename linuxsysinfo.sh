@@ -104,6 +104,4 @@ echo -e "Root Password Information:\n${GREEN}$rootpasswd${NC}"
 echo -e "Executable Files Modified Within Five Days:\n${GREEN}$executable${NC}"
 echo -e "SSH Connections:\n${GREEN}$sshconn${NC}"
 
-echo -e "\nThe script has concluded."
-
-                                                                                   9,48          Top
+echo -e "\nThe script has concluded."                                                                                  9,48          T
