@@ -1,2 +1,2 @@
 # Forensics
-Scripts
+Scripts I wrote for my forensics course at RIT.
